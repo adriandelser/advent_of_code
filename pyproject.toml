@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "advent-code-2023"
+version = "0.1.0"
+description = ""
+authors = ["Adrian del Ser <adrian.delser@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.2"
+matplotlib = "^3.9.3"
+scipy = "^1.14.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
